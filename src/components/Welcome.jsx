@@ -73,14 +73,14 @@ const Welcome = () => {
   }, []);
   return (
     <section id="welcome">
-      <p ref={subtitleRef} className="text-blue-500">
+      <p ref={subtitleRef} className="text-blue-500  bg-white/2 backdrop-blur-md rounded-xl p-1.5">
         {renderText(
           "Hello, I'm Kalayar! Welcome to my",
           "text-3xl font-georama",
           100,
         )}
       </p>
-      <h1 ref={titleRef} className="mt-7 text-blue-500">
+      <h1 ref={titleRef} className="mt-7 text-blue-500  bg-gray-200/20  backdrop-blur-md rounded-2xl  p-1.5">
         {renderText("Portfolio", "text-9xl italic font-georama", 400)}
       </h1>
       <div className="small-screen">

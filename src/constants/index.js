@@ -102,31 +102,57 @@ const blogPosts = [
 ];
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Curricula",
+    items: [
+      "Cambridge YLE",
+      "Global English",
+      "Speak Out",
+      "Headway",
+    ],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "Specialism",
+    items: [
+      "ESL kids/adults",
+      "Phonics",
+      "Chemistry",
+      "Social Studies",
+    ],
   },
   {
-    category: "Styling",
-    items: ["Tailwind CSS", "CSS"],
+    category: "Pedagogy",
+    items: [
+      "CLT",
+      "Student-first",
+      "Activity-based",
+      "Differentiation",
+    ],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "C#", "Python"],
+    category: "EdTech",
+    items: [
+      "Canva",
+      "Google Classroom",
+      "AV tools",
+    ],
   },
   {
-    category: "Database",
-    items: ["MySQL", "PostgreSQL"],
+    category: "Assessment",
+    items: [
+      "YLE prep",
+      "Formative",
+      "Speaking",
+      "Tests",
+    ],
   },
   {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    category: "Credentials",
+    items: [
+      "ESL exp",
+      "Cambridge trained",
+    ],
   },
 ];
-
 const socials = [
   {
     id: 1,
@@ -154,7 +180,7 @@ const socials = [
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/in/aung-chan-648979374",
+    link: "https://www.linkedin.com/in/kalayar-moon-1ab63k16",
   },
 ];
 
@@ -189,19 +215,23 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/gal1.jpg",
+    title: "Gallery Image 1",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/gal2.jpg",
+    title: "Gallery Image 2",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/gal3.jpg",
+    title: "Gallery Image 3",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/gal4.jpg",
+    title: "Gallery Image 4",
   },
 ];
 
