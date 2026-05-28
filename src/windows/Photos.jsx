@@ -37,7 +37,7 @@ const Photos = () => {
           </ul>
         </div>
 
-        <div className="gallery">
+        <div className="gallery overflow-auto max-h-[60vh]">
           <h3 className="mb-4 text-sm font-semibold text-gray-500">Selected</h3>
           <div className="mb-4 rounded-lg border border-gray-200 p-4">
             <p className="text-lg font-semibold">{activeCategory.title}</p>

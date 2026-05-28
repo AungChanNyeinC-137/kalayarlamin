@@ -18,12 +18,11 @@ const Contact = () => {
           alt="kalayar"
           className="w-26 h-26 rounded-full object-cover"
         />
-        <h3>Let's Connect</h3>  
+        <h3> Let's Connect! </h3>  
         <p>
-          Building something? Stuck on a bug? Or just want to chat tech? Hit me
-          up.
+    Get in touch to create engaging and supportive learning experiences for students
         </p>
-        <p>aungchannyein29699@gmail.com</p>
+        <p>kalayarlamin487@gmail.com</p>
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => 
             (<li key={id} style={{backgroundColor:bg}}>
