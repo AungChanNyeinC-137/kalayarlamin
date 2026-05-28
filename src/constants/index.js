@@ -77,33 +77,29 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "March 2023 – May 2024",
-    title: "Marketing Admin",
+    date: "April 2023 – Present",
+    title: "Placement Test Registrar & Main Teacher",
     description:
-      "Handled digital campaigns, analytics, and internal tooling support. Collaborated closely with designers and developers.",
-    image: "/images/logo1.png",
-    link: "#",
+      "Coordinate school admissions, organize assessments, manage placement data,and cooperate as a Main teacher for Cambridge YLE exams classes.",
+    image: "/images/logo1.jpg",
   },
   {
     id: 2,
-    date: "August 2023 – December 2024",
-    title: ".NET Developer",
+    date: " Feb 2024 – Dec 2024",
+    title: "Teach Adult Learners Four Skills",
     description:
-      "Worked on backend services, APIs, and internal systems using .NET technologies.",
-    image: "/images/logo2.png",
-    link: "#",
+      "Delivered  English lessons focused on communication skills, student participation, and interactive learning experiences.",
+    image: "/images/logo2.jpg",
   },
   {
     id: 3,
-    date: "December 2023 – Present",
-    title: "Professional Web Developer",
+    date: "Mar 2023– Aug 2023",
+    title: "English Language Instructor",
     description:
-      "Building modern web applications using React, Tailwind, animations, and clean UI architecture.",
-    image: "/images/logo3.png",
-    link: "#",
+      "Created engaging lesson plans, taught conversational and fun English lessons, and helped students improve fluency through personalized learning methods.",
+    image: "/images/logo3.jpg",
   },
 ];
-
 const techStack = [
   {
     category: "Frontend",
@@ -402,7 +398,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/aungchan.jpg",
+      imageUrl: "/images/kalayar.jpg",
     },
     {
       id: 2,
@@ -411,7 +407,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/aungchan-3.jpg",
+      imageUrl: "/images/kalayar-3.jpg",
     },
     {
       id: 3,
@@ -420,7 +416,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/aungchan-2.jpg",
+      imageUrl: "/images/kalayar-2.jpg",
     },
     {
       id: 4,
@@ -430,7 +426,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/aungchan.jpg",
+      image: "/images/kalayar.jpg",
       description: [
         "Hey, I’m Aung Chan 👋 — a web developer who loves turning ideas into clean, interactive websites that feel good to use.",
         "I mostly work with JavaScript, React, and Next.js, and I’m obsessed with smooth animations, fast performance, and thoughtful details.",

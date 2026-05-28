@@ -29,7 +29,7 @@ const Safari = () => {
     </div>
  <div className="blog">
   <h2 >
-    My Developer Journey
+    My Experience & Growth
   </h2>
 
   <div className="relative space-y-10">
