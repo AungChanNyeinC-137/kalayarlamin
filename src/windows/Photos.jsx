@@ -14,8 +14,8 @@ const Photos = () => {
   const { openWindow } = useWindowStore();
   const { photosActiveLocation, setPhotosActiveLocation } = useLocationStore();
   useEffect(() => {
-  setPhotosActiveLocation(PHOTOS_LOCATION.children[0]);
-}, []);
+    setPhotosActiveLocation(PHOTOS_LOCATION.children[0]);
+  }, []);
   const renderList = (title, items) => (
     <div>
       <h3>{title}</h3>
@@ -51,7 +51,7 @@ const Photos = () => {
       return setPhotosActiveLocation(item);
 
     if (item.fileType === "pdf")
-      return openWindow("pdffile", item);
+      return openWindow("certificate", item);
 
     openWindow(`${item.fileType}${item.kind}`, item);
   };
@@ -75,14 +75,21 @@ const Photos = () => {
 
         <ul className="gallery">
           {photosActiveLocation?.children?.map((item) => (
-            <li
-              key={item.id}
-              onClick={() => openItem(item)}
-            >
-              <img
-                src={item.imageUrl}
-                alt={item.name}
-              />
+            <li key={item.id} onClick={() => openItem(item)}>
+              {item.fileType === "pdf" ? (
+                <div className="flex flex-col items-center justify-center h-40 gap-2">
+                  <img src={item.icon} alt={item.name} className="w-16 h-16" />
+                  <p className="text-sm text-center px-2 text-gray-700">
+                    {item.name}
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <img src={item.imageUrl} alt={item.name} />
+                </>
+
+
+              )}
             </li>
           ))}
         </ul>

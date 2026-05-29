@@ -178,6 +178,7 @@ body {
 
       .content {
         @apply py-5 my-5 border-y border-dashed space-y-1;
+
         li {
           .check {
             @apply text-[#00A154] w-5;
@@ -264,10 +265,14 @@ body {
       @apply p-5 overflow-y-auto grid grid-cols-3 gap-3 h-full;
 
       li {
-        @apply rounded-e-md overflow-hidden cursor-pointer transition-transform duration-200 hover:-translate-y-0.5;
+        @apply rounded-md overflow-hidden cursor-pointer transition-transform duration-200 hover:-translate-y-0.5 flex flex-col bg-white;
 
         img {
-          @apply w-full h-auto object-cover;
+          @apply w-full h-40 object-cover;
+        }
+
+        p {
+          @apply text-sm mt-2 text-center px-2  break-words;
         }
       }
     }
@@ -352,6 +357,7 @@ body {
       }
     }
   }
+
   #home {
     @apply relative z-0 max-sm:hidden;
 

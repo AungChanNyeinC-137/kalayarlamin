@@ -6,4 +6,6 @@ import Finder from "./Finder";
 import Text from "./Text";
 import ImageViewer from "./ImageViewer";
 import Contact from "./Contact";
-export {Terminal, Photos, Safari, Resume,Finder, Text, ImageViewer, Contact};
+import Certificate from "./Certificate";
+
+export {Terminal, Photos, Safari, Resume,Finder, Text, ImageViewer, Contact, Certificate};

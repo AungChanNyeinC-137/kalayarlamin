@@ -665,8 +665,8 @@ export const PHOTOS_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Certicicate of Foundational Principles for Teaching ESL.pdf",
-          icon: "/images/pdf.png",
+          name: "Certicicate of Foundational Principles for Teaching ESL",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-1.pdf",
@@ -674,7 +674,7 @@ export const PHOTOS_LOCATION = {
         {
           id: 2,
           name: "Certificate of Lesson Design and Assessment",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-2.pdf",
@@ -682,7 +682,7 @@ export const PHOTOS_LOCATION = {
         {
           id: 3,
           name: "Certificate of Technology Enriched Teaching",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-3.pdf",
@@ -690,7 +690,7 @@ export const PHOTOS_LOCATION = {
         {
           id: 4,
           name: "Certificate of TESOL Capstone Project 1",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-4.pdf",
@@ -698,7 +698,7 @@ export const PHOTOS_LOCATION = {
         {
           id:5,
           name: "Certificate of Theories of Second Language Acquisition",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-5.pdf",
@@ -706,7 +706,7 @@ export const PHOTOS_LOCATION = {
         {
           id: 6,
           name: "Certificate_of_Teaching_Second_Language_Listening,_Speaking_and_Pronunciation",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-6.pdf",
@@ -714,7 +714,7 @@ export const PHOTOS_LOCATION = {
         {
           id: 7,
           name: "Certificate_of_Teaching_Second_Language_Reading,_Writing_and_Grammar",
-          icon: "/images/pdf.png",
+          icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-7.pdf",
@@ -737,6 +737,7 @@ const WINDOW_CONFIG = {
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  certificate: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };
