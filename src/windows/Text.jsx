@@ -12,7 +12,7 @@ const Text = () => {
   <div id='window-header'>
     <WindowConrtols target='txtfile'/>
   </div>
-  <div className="p-5 space-y-6 bg-white">
+  <div className="p-5 space-y-6 bg-white overflow-y-auto" style={{ maxHeight: 'calc(80vh - 3.5rem)' }}>
   {image ? (
     <div className="w-full">
       <img src={image} alt={name} className="w-full h-auto rounded" />
