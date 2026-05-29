@@ -665,7 +665,7 @@ export const PHOTOS_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Certicicate of Foundational Principles for Teaching ESL",
+          name: "Certificate of Foundational Principles for Teaching ESL",
           icon: "/images/certificate.png",
           kind: "file",
           fileType: "pdf",
@@ -718,6 +718,14 @@ export const PHOTOS_LOCATION = {
           kind: "file",
           fileType: "pdf",
           pdfUrl: "/files/certificate-7.pdf",
+        },
+        {
+          id: 8,
+          name: "Teacher Knowledge Test Certificate",
+          icon: "/images/certificate.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-8.pdf",
         },
       ],
     },
