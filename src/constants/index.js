@@ -177,34 +177,6 @@ const socials = [
   },
 ];
 
-const photosLinks = [
-  {
-    id: 1,
-    icon: "/icons/gicon1.svg",
-    title: "Library",
-  },
-  {
-    id: 2,
-    icon: "/icons/gicon2.svg",
-    title: "Memories",
-  },
-  {
-    id: 3,
-    icon: "/icons/file.svg",
-    title: "Places",
-  },
-  {
-    id: 4,
-    icon: "/icons/gicon4.svg",
-    title: "People",
-  },
-  {
-    id: 5,
-    icon: "/icons/gicon5.svg",
-    title: "Favorites",
-  },
-];
-
 const gallery = [
   {
     id: 1,
@@ -235,7 +207,6 @@ export {
   blogPosts,
   techStack,
   socials,
-  photosLinks,
   gallery,
 };
 
@@ -263,10 +234,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Connect and Power is a comprehensive educational program designed to empower students with essential skills for the modern world.",
+            "Instead of traditional rote learning, it focuses on interactive, project-based learning that connects theoretical knowledge with real-world applications.",
+            "Think of it like a bridge that connects classroom learning to practical skills, preparing students to thrive in a rapidly changing world.",
+            "It covers a wide range of subjects, including technology, communication, and critical thinking, all aimed at fostering creativity and problem-solving abilities.",
           ],
         },
         {
@@ -302,7 +273,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Research Paper Writing-Poster of the Best Content",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -310,43 +281,43 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Research Paper Writing-Poster of the Best Content.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Research Paper Writing-Poster of the Best Content is a comprehensive guide to creating outstanding academic papers.",
+            "Instead of struggling with structure and content, you get expert advice on research methodologies, argumentation, and presentation.",
+            "Think of it like having a seasoned academic advisor—guiding you through each step of the writing process.",
+            "It’s designed to help students and researchers produce high-quality papers that stand out in any academic setting.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
+          name: "memo1",
+          icon: "/images/image.png",
           kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          fileType: "img",
+           imageUrl: "/images/research-paper1.jpg",
           position: "top-20 left-20",
         },
         {
-          id: 4,
-          name: "ai-resume-analyzer.png",
+          id: 3,
+          name: "memo2",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/research-paper2.jpg",
         },
         {
           id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
+          name: "memo3",
+          icon: "/images/image.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
+          fileType: "img",
+          imageUrl: "/images/research-paper3.jpg",
           position: "top-60 left-5",
         },
       ],
@@ -355,7 +326,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Social Studies Teaching Project",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -363,16 +334,16 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Social Studies Teaching Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "The Social Studies Teaching Project is an innovative educational initiative designed to enhance the teaching and learning of social studies.",
+            "Instead of traditional lecture-based methods, this project emphasizes interactive and student-centered approaches to engage learners in the subject matter.",
+            "Think of it like a dynamic classroom experience where students actively participate in discussions, projects, and activities that bring social studies to life.",
+            "The project aims to foster critical thinking, cultural awareness, and civic engagement among students, preparing them to be informed and active citizens in a global society.",
           ],
         },
         {
@@ -474,6 +445,7 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
+      href: "/files/resume.pdf",
       // you can add href if you want to open a hosted resume
       // href: "/your/resume/path.pdf",
     },
@@ -513,6 +485,246 @@ export const locations = {
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
 };
+export const PHOTOS_LOCATION = {
+  id: 5,
+  type: "photos",
+  name: "Photos",
+  icon: "/icons/photos.svg",
+  kind: "folder",
+  children: [
+    {
+      id: 1,
+      name: "Library",
+      icon: "/icons/gicon1.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "gal1.jpg",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/gal1.jpg",
+        },
+        {
+          id: 2,
+          name: "gal2.jpg",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/gal2.jpg",
+        },
+        {
+          id: 3,
+          name: "gal3.jpg",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/gal3.jpg",
+        },
+        {
+          id: 4,
+          name: "gal4.jpg",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/gal4.jpg",
+        },
+        {
+          id: 5,
+          name: "gal5.jpg",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/gal5.jpg",
+        },
+      ],
+    },
+
+    {
+      id: 2,
+      name: "Memories",
+      icon: "/icons/gicon2.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "memory-1.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/memory-1.jpg",
+        },
+        {
+          id: 2,
+          name: "memory-2.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/memory-2.jpg",
+        },
+        {
+          id: 3,
+          name: "memory-3.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/memory-3.jpg",
+        },
+      ],
+    },
+
+    {
+      id: 3,
+      name: "Places",
+      icon: "/icons/file.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "place-1.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/place-1.jpg",
+        },
+        {
+          id: 2,
+          name: "place-2.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/place-2.jpg",
+        },
+      ],
+    },
+
+    {
+      id: 4,
+      name: "People",
+      icon: "/icons/gicon4.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "teacher-1.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/people-1.jpg",
+        },
+        {
+          id: 2,
+          name: "teacher-2.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/people-2.jpg",
+        },
+        {
+          id: 3,
+          name: "teacher-3.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/people-3.jpg",
+        },
+      ],
+    },
+
+    {
+      id: 5,
+      name: "Favorites",
+      icon: "/icons/gicon5.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "favorite-1.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/favorite-1.jpg",
+        },
+        {
+          id: 2,
+          name: "favorite-2.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          imageUrl: "/images/favorite-2.jpg",
+        },
+      ],
+    },
+
+    {
+      id: 6,
+      name: "Achievements",
+      icon: "/icons/gicon6.svg",
+      kind: "folder",
+      children: [
+        {
+          id: 1,
+          name: "Certicicate of Foundational Principles for Teaching ESL.pdf",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-1.pdf",
+        },
+        {
+          id: 2,
+          name: "Certificate of Lesson Design and Assessment",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-2.pdf",
+        },
+        {
+          id: 3,
+          name: "Certificate of Technology Enriched Teaching",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-3.pdf",
+        },
+        {
+          id: 4,
+          name: "Certificate of TESOL Capstone Project 1",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-4.pdf",
+        },
+        {
+          id:5,
+          name: "Certificate of Theories of Second Language Acquisition",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-5.pdf",
+        },
+        {
+          id: 6,
+          name: "Certificate_of_Teaching_Second_Language_Listening,_Speaking_and_Pronunciation",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-6.pdf",
+        },
+        {
+          id: 7,
+          name: "Certificate_of_Teaching_Second_Language_Reading,_Writing_and_Grammar",
+          icon: "/images/pdf.png",
+          kind: "file",
+          fileType: "pdf",
+          pdfUrl: "/files/certificate-7.pdf",
+        },
+      ],
+    },
+  ],
+};
+
+export const photosLinks = PHOTOS_LOCATION.children;
 
 const INITIAL_Z_INDEX = 1000;
 
