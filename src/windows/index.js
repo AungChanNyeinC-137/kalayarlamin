@@ -7,5 +7,6 @@ import Text from "./Text";
 import ImageViewer from "./ImageViewer";
 import Contact from "./Contact";
 import Certificate from "./Certificate";
+import Achievement from "./Achievement";
 
-export {Terminal, Photos, Safari, Resume,Finder, Text, ImageViewer, Contact, Certificate};
+export {Terminal, Photos, Safari, Resume,Finder, Text, ImageViewer, Contact, Certificate, Achievement};

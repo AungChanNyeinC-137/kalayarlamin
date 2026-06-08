@@ -67,10 +67,10 @@ const dockApps = [
     canOpen: true,
   },
   {
-    id: "trash",
-    name: "Archive", // was "Trash"
-    icon: "trash.png",
-    canOpen: false,
+    id: "achievement",
+    name: "Achievements", // was "Trash"
+    icon: "achievement.png",
+    canOpen: true,
   },
 ];
 
@@ -781,6 +781,7 @@ const WINDOW_CONFIG = {
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   certificate: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  achievement: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };

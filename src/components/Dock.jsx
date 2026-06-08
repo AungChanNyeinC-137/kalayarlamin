@@ -7,7 +7,7 @@ import useWindowStore from "#store/window";
 
 const Dock = () => {
 
-  const {openWindow,closeWindow,focusWindow, windows} = useWindowStore();
+  const { openWindow, closeWindow, focusWindow, windows } = useWindowStore();
 
   const dockRef = useRef(null);
 
@@ -46,22 +46,22 @@ const Dock = () => {
           ease: "power1.out",
         }),
       );
-      dock.addEventListener('mousemove',handleMouseMove);
-      dock.addEventListener('mouseleave',resetIcons);
-      return ()=> {
-        dock.removeEventListener('mousemove',handleMouseMove);
-        dock.removeEventListener('mouseleave',resetIcons);
-      }
-  },[]);
-  
+    dock.addEventListener('mousemove', handleMouseMove);
+    dock.addEventListener('mouseleave', resetIcons);
+    return () => {
+      dock.removeEventListener('mousemove', handleMouseMove);
+      dock.removeEventListener('mouseleave', resetIcons);
+    }
+  }, []);
+
   const toggleApp = (app) => {
-    if(!app.canOpen) return;
+    if (!app.canOpen) return;
     const window = windows[app.id];
-    if(!window) {
+    if (!window) {
       console.error(`window not found for the app: ${app.id}`);
       return;
     }
-    if(window.isOpen) {
+    if (window.isOpen) {
       closeWindow(app.id);
     } else {
       openWindow(app.id);
